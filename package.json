@@ -1,0 +1,18 @@
+{
+  "name": "capture-website-v2",
+  "version": "1.0.0",
+  "description": "Custom bootstrap",
+  "keywords": [
+    "bs"
+  ],
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "testtest"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
