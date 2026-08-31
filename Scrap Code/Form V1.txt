@@ -1,0 +1,89 @@
+<div class="container-xl me-md-auto">
+    <form class="row g-1">
+        <div class="container">
+            <div class="col-12 mt-3">
+                <label for="formfullname" class="form-label fw-bold">Name</label>
+                <input type="text" class="form-control" id="formfullname" placeholder="Plastic RECycler">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6 mt-3">
+                    <label for="telephonenumber" class="form-label fw-bold">Phone Number</label>
+                    <input type="text" class="form-control" id="telephonenumber" placeholder="123-456-7890">
+                </div>
+                <div class="col-6 mt-3">
+                    <label for="emailingaddress" class="form-label fw-bold">Email address</label>
+                    <input type="email" class="form-control" id="emailingaddress" placeholder="name@example.com">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-5 mt-3">
+                    <label for="companyassociation" class="form-label fw-bold">Company (if applicable)</label>
+                    <input type="text" class="form-control" id="companyassociation"
+                        placeholder="CaptuRE Recycling, LLC.">
+                </div>
+                <div class="col-5 mt-3">
+                    <label for="cityoforigin" class="form-label fw-bold">City</label>
+                    <input type="text" class="form-control" id="cityoforigin" placeholder="Forest City">
+                </div>
+                <div class="col-2 mt-3">
+                    <label for="stateoforigin" class="form-label fw-bold">State</label>
+                    <input type="text" class="form-control" id="stateoforigin" placeholder="Iowa">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-7 mt-3">
+                    <label for="rationale1" class="form-label fw-bold">Reason for Contact</label>
+                    <select class="form-select" id="rationale1">
+                        <option selected disabled value="">Select one...</option>
+                        <option value="1">Finished Products Info/Purchasing (keys, pens, furniture, etc.)</option>
+                        <option value="2">Processed Material Info/Purchasing (shredded plastic, sheets)</option>
+                        <option value="3">FOR BUSINESSES: Plastic Pickup Request</option>
+                        <option value="4">FOR HOUSEHOLDS: How to Handle Plastic Waste</option>
+                        <option value="5">General Information</option>
+                        <option value="6">Request/Schedule a Tour</option>
+                        <option value="7">Other (Please fill in additional information below.)</option>
+                    </select>
+                </div>
+                <div class="col-5 mt-3">
+                    <label for="formplastictype" class="form-label fw-bold">Plastic Type (if applicable*)?</label>
+                    <select class="form-select" id="formplastictype">
+                        <option selected disabled value="">Select one...</option>
+                        <option value="1">#1 Plastic- PET</option>
+                        <option value="2">#2 Plastic - HDPE</option>
+                        <option value="3">#4 Plastic - LDPE</option>
+                        <option value="4">#5 Plastic - PP</option>
+                        <option value="5">#7 Plastic - Other Plastics</option>
+                        <option value="6">I am unsure of the type of plastic.</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-12 mt-3">
+                <label for="inquirydetails" class="form-label fw-bold">Inquiry Details</label>
+                <textarea class="form-control" id="inquirydetails" placeholder="Input your question/feedback here."
+                    rows="3"></textarea>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-12 mt-3 mb-1">
+                <label for="formFileMultiple" class="form-label fw-bold">File Upload - Upload any applicable files
+                    here.</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+            </div>
+            <p class="form-label mb-3">*NOTE: We are currently NOT accepting #3 (PVC), #6 (PS), or most (#7) plastics.
+            </p>
+        </div>
+        <div class="container">
+            <div class="col-12">
+                <button class="btn btn-primary btn-lg" type="submit">Submit Form</button>
+            </div>
+        </div>
+    </form>
+</div>
